@@ -14,12 +14,7 @@
 <h2>Hello Heroku! I am JSP</h2>
 <strong>Current Time is</strong>: <%=new Date() %>
 <p>Try a: </p>
-<button onclick="window.location.assign(servletURL+'/hello');">Simple servlet </button>
-<button onclick="window.location.assign(servletURL+'/echo');">Echo POST requests servlet </button>
-<button onclick="window.location.assign(servletURL+'/twoButtons');">Form submitting servlet </button>
-<button onclick="window.location.assign(servletURL+'/file');">File persistence servlet </button>
-<button onclick="window.location.assign(servletURL+'/json');">JSON File persistence servlet </button>
-<button onclick="window.location.assign(servletURL+'/xml');">XML File persistence servlet </button>
-<button onclick="window.location.assign(servletURL+'/database');">Database persistence servlet </button>
+
+<button onclick="window.location.assign(servletURL+'/assignment5');">Assignment 5 | Logical Predicates</button>
 </body>
 </html>
