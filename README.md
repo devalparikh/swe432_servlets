@@ -1,3 +1,20 @@
+# SWE432-001 Java Servlet Assignments
+
+## Usage
+- Local Development
+    - in `swe432assignments` directory, to see changes run
+        1. `mvn package`
+        2. `heroku local`
+        
+- Deployment
+    - deploy the `master` branch
+    - in `swe432assignments` directory, run
+        1. `git add .`
+        2. `git commit -m “commit message”`
+        3. `git push`
+
+
+
 # Using Heroku to deploy servlets and JSPs
 
 This tutorial will show you how to deploy and develop a Heroku app that runs servlets and JSPs.

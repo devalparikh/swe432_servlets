@@ -7,11 +7,11 @@
   <script>
     var servletURL = window.location.origin;
   </script>
-<title>First JSP</title>
+<title>Java Servlets</title>
 </head>
 <%@ page import="java.util.Date" %>
 <body>
-<h2>Hello Heroku! I am JSP</h2>
+<h2>Hello this is our page for assignments regarding Java ServletsP</h2>
 <strong>Current Time is</strong>: <%=new Date() %>
 <p>Try a: </p>
 
