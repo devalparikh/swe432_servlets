@@ -11,9 +11,9 @@
 </head>
 <%@ page import="java.util.Date" %>
 <body>
-<h2>Hello this is our page for assignments regarding Java ServletsP</h2>
+<h2>Hello this is our page for assignments regarding Java Servlets</h2>
 <strong>Current Time is</strong>: <%=new Date() %>
-<p>Try a: </p>
+<p>Assignments</p>
 
 <button onclick="window.location.assign(servletURL+'/assignment5');">Assignment 5 | Logical Predicates</button>
 </body>
