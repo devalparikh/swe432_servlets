@@ -6,6 +6,8 @@
         1. `mvn package`
         2. `heroku local`
         
+    - make changes to specific assignment in `src/main/java/servlet/Assignment{X}.java`
+        
 - Deployment
     - deploy the `master` branch
     - in `swe432assignments` directory, run
