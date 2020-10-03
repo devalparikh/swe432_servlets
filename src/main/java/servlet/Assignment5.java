@@ -210,7 +210,33 @@ public class Assignment5 extends HttpServlet {
 
     // HTML Body from doPost
     private void PrintPostBody(PrintWriter out, Map formData) {
-        out.println(topBodyHTML);
+        out.println("<body>\n" +
+                "        <script src=\"https://mason.gmu.edu/~dparikh4/assignment5/assignment5.js\"></script>\n" +
+                "\n" +
+                "        <!-- Title Area -->\n" +
+                "        <div class=\"main-section\">\n" +
+                "                <div class=\"a3-subsection\">\n" +
+                "                        <h1>\n" +
+                "                                SWE432-001 Assignment 5\n" +
+                "                        </h1>\n" +
+                "                        <h3>\n" +
+                "                                Created By:\n" +
+                "                                <a href=\"https://mason.gmu.edu/~afuentel/\">\n" +
+                "                                        Alexandro Fuentelzas\n" +
+                "                                </a>\n" +
+                "                                ,&nbsp;\n" +
+                "                                <a href=\"https://mason.gmu.edu/~dparikh4/\">\n" +
+                "                                        Deval Parikh\n" +
+                "                                </a>\n" +
+                "                                ,&nbsp;\n" +
+                "                                <a href=\"https://mason.gmu.edu/~spolina/\">\n" +
+                "                                        Surya Polina\n" +
+                "                                </a>\n" +
+                "                        </h3>\n" +
+                "                </div>\n" +
+                "\n" +
+                "                <!-- Forms and User Area -->\n" +
+                "                <div class=\"a3-subsection\">\n");
         String[] predItems = PrintUserPredicates(out, formData);
         printTruthTable(out, predItems);
         out.println(endBodyHTML);
