@@ -137,7 +137,9 @@ public class Assignment5 extends HttpServlet {
 
     static String endBodyHTML = "\n" +
             "                        <h1>Collaboration Summary</h1>\n" +
-            "                        <h3>(UPDATE FOR ASSIGNMENT 5) Our group collaboration to complete this assignment. We all contributed to each other's parts. Deval contributed by creating Javascript functions to add and remove logical predicates. Alex contributed by creating Javascript functions to add and remove variables. Surya worked on HTML and CSS of the page. We collaborated together to design the overall usability, layout, and format of the user interface. Alex came up with the variable definition design structure. Surya performed usability testing to help create helpful instructions. Deval wrote instructions.\n" +
+            "                        <h3>Our group collaboration to complete assignment 5. We all contributed to each other's parts. Deval contributed by porting over the front end from project 3 to run in the doGet of our Java servlet for assignment 5." +
+            "                            Alex contributed by creating the doPost function to output elements of the web application from the previous doGet page using functions like request.getAttribute. Surya worked on HTML and CSS of the page that renders the truth table that would be presented from the doPost when the user submits the form. Deval also worked on creating the echoing predicate put together from the input." +
+            "                            We all collaborated to write the logic of generating the truth table and have it output the html from the doPost. We collaborated to design the overall usability, layout, and format of the user interface. Alex came up with the variable definition design structure. Surya performed usability testing to help create helpful instructions. Deval wrote instructions.\n" +
             "                        </h3>\n" +
             "                </div>\n" +
             "        </div>\n";
