@@ -146,7 +146,8 @@ public class Assignment7 extends HttpServlet {
     static String endBodyHTML = "\n" +
             "                        <h1>Collaboration Summary</h1>\n" +
             "                        <h3>Our group collaborated to complete assignment 7. We all contributed to each other's parts. Deval contributed by copying the Java servlet for assignment 7 from our previous assignment 5." +
-            "                            Alex contributed by modifying the doGet function to output elements of the web application for the predicate history by parsing the JSON file. Surya worked on HTML and CSS of the history section of the web application that takes the parsed file and formats the JSON to be used with generic functions. Deval worked on storing the predicates when a user submits from the doPost function and formatting the data for the JSON file." +
+            "                            Alex contributed by modifying the doGet function to output elements of the web application for the predicate history by parsing the JSON file. Surya worked on HTML and CSS of the history section of the web application that takes the parsed file and formats the JSON to be used with generic functions. " +
+            "                               Deval worked on storing the predicates when a user submits from the doPost function and formatting the data for the JSON file." +
             "                            We all collaborated to write the logic of generating the truth table and have it output the html from the doPost. We collaborated to design the overall usability, layout, and format of the user interface.\n" +
             "                        </h3>\n" +
             "                </div>\n" +
@@ -156,7 +157,6 @@ public class Assignment7 extends HttpServlet {
     private String FILEPATH = "predicates.json";
 
     List<Map<String, String[]>> allFormData = new ArrayList();
-//    Type allFormDataType = new TypeToken<List<Map<String, Map>>>(){}.getType();
 
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -178,7 +178,7 @@ public class Assignment7 extends HttpServlet {
             FileWriter fileWriter = new FileWriter(FILEPATH);
             // Create JSON from list of allFormData and write to JSON file
             new Gson().toJson(allFormData, fileWriter);
-//            System.out.println(new Gson().toJson(allFormData));
+
             fileWriter.flush();
             fileWriter.close();
         }catch(IOException ioException){}
