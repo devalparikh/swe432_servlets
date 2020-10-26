@@ -16,5 +16,6 @@
 <p>Assignments</p>
 
 <button onclick="window.location.assign(servletURL+'/assignment5');">Assignment 5 | Logical Predicates</button>
+<button onclick="window.location.assign(servletURL+'/assignment7');">Assignment 7</button>
 </body>
 </html>
