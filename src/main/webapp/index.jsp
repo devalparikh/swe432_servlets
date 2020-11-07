@@ -17,5 +17,7 @@
 
 <button onclick="window.location.assign(servletURL+'/assignment5');">Assignment 5 | Logical Predicates</button>
 <button onclick="window.location.assign(servletURL+'/assignment7');">Assignment 7</button>
+<button onclick="window.location.assign(servletURL+'/assignment8');">Assignment 8</button>
+
 </body>
 </html>
